@@ -22,7 +22,7 @@ I trained Deep Learning Model(Yolov7) for CS2(new version of Counter Strike Glob
 
 
 # Folders & Files
-Yolov8_cs2_csgo_demo.py   :   main file for using Yolov8 model in game , this file doesnt work with yolov7 model because ultralytics dont support yoloV7 models (YOLOV8 FİLE)
+Yolov8_cs2_csgo_demo.py   :   main file for using Yolov8 model in game , this file doesnt work with yolov7 model because ultralytics dont support yoloV7 models (YOLOV8 FİLE) <br><br>
 configuration_files : simply this folder contains configuration files of model (YOLOV7 FİLE) <br>  
 model_history_curves : model's history graphs , precision recall .. (YOLOV7 FİLE) <br>  
 test_images : after model created i test model with compeletly new images (YOLOV7 FİLE) <br>
