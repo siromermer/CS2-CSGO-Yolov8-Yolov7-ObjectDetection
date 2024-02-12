@@ -1,3 +1,5 @@
+article about this project : https://medium.com/@siromermer/csgo-cs2-object-detection-db234312f9b6
+
 # Updates !!!
 In first version of this project , i trained yolov7 model and test it  only in images . Model was detecting nearly half of the players therefore i didnt test that model inside of real game because model was not that good . Therefore i trained one more model , this time i used Yolov8 model(YOLOv8m)  , when i compare those 2 model , yolov8 is outperforming yolov7 .  Yolov8m model is nearly detecting all players(even when players are dead and laying in ground D:) . So  with Yolov8m i decided to test it in real game and results was pretty good , check below video <br><br>Yolov8_cs2_csgo_demo.py --> use this file for testing model in game(use it with yoloV8 models)(it doesnt work with yolov7 model because ultralytics dont support yolov7 models)<br><br>
 Note : left screen is original game screen , right screen is for seeing players heads with rectangle(not necessary screen you dont have to use this screen)
