@@ -1,0 +1,33 @@
+# CS2/CSGO YOLOv8 Object Detection Requirements
+# These are the exact versions from the working yolov8_custom environment
+
+# Core deep learning and computer vision
+ultralytics==8.3.9             # YOLOv8 framework
+torch==2.2.0+cu121             # PyTorch with CUDA 12.1 support
+torchvision==0.17.0+cu121      # Computer vision utilities with CUDA support
+opencv-python==4.9.0           # OpenCV for image processing
+
+# Screen capture and automation  
+mss==9.0.1                     # Fast screen capture
+pyautogui==0.9.54              # Mouse automation
+pillow==10.3.0                 # Python Imaging Library (PIL)
+
+# Data processing and utilities
+numpy==1.26.4                  # Numerical computing
+# Additional packages for training and development (optional)
+matplotlib>=3.7.0           # Plotting and visualization
+pandas>=2.0.0               # Data manipulation (for training)
+PyYAML>=6.0                 # YAML configuration files
+tqdm>=4.65.0                # Progress bars
+seaborn>=0.12.0             # Statistical visualization
+ipython>=8.0.0              # Interactive Python (for notebooks)
+jupyter>=1.0.0              # Jupyter notebook support
+
+# For Kaggle dataset download (optional)
+wget>=3.2                   # File downloading utility
+
+# Installation Notes:
+# 1. Install PyTorch with CUDA support first:
+#    pip install torch==2.2.0+cu121 torchvision==0.17.0+cu121 --index-url https://download.pytorch.org/whl/cu121
+# 2. Then install other requirements:
+#    pip install -r requirements.txt

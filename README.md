@@ -8,8 +8,7 @@ You can find the dataset on my Kaggle page, link: https://www.kaggle.com/dataset
 
 <br>
 The dataset is small for now, but the results are really good. Lots of people gave me feedback about the data quality, and they were all positive because the images are from the game, not from real life. Therefore, there aren’t any differences in environments, there aren’t any sharp lighting changes between images, or shape differences in objects.
-<br> <br>
-Both YOLOv7 and YOLOv8 models are trained, and the best balance between real-time performance and accuracy was achieved by the YOLOv8m model. Depending on your GPU, for better FPS you can also train with the YOLOv8n model.
+The `yolov8_csgo_cs2_model.pt` file uses the YOLOv8 nano model as its pretrained backbone for this project.
 <br>
 
 # Demo video
@@ -25,6 +24,21 @@ https://github.com/siromermer/CS2-Yolov7-Custom-ObjectDetection/assets/113242649
 
 # Why not CS2 ?
 there is no  Raw input and  Mouse acceleration options in cs2 , therefore even models can detect players without problem in cs2 there is problem with mouse movements . As soon as they add this setting options to CS2 , this will work without problem for sure
+
+## Repository Structure
+- `yolov8_csgo_cs2_model.pt` - Trained YOLOv8 model weights
+- `Yolov8_cs2_csgo_demo.py` - Real-time detection and auto-aim demo script
+- `model-training.ipynb` - Training notebook with model training process
+- `model-results/` - Training results and model evaluation metrics
+- `test_images/` - Sample test images for demonstration
+- `configuration_files/` - YAML configuration files for training
+- `requirements.txt` - Python dependencies with exact versions
+
+## Quick Start
+1. **Install PyTorch with CUDA support** for optimal performance: [PyTorch Installation Guide](https://pytorch.org/get-started/locally/)
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the demo: `python Yolov8_cs2_csgo_demo.py`
+4. Press 'q' to exit
 
 
 
