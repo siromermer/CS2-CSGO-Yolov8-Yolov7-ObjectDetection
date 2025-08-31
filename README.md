@@ -15,7 +15,7 @@ The `yolov8_csgo_cs2_model.pt` file uses the YOLOv8 nano model as its pretrained
 
 For more project, you can check my personal blog website: https://visionbrick.com/
 
-<br>
+
 
 
 # Demo video
