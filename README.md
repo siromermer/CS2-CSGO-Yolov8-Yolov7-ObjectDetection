@@ -11,6 +11,13 @@ The dataset is small for now, but the results are really good. Lots of people ga
 The `yolov8_csgo_cs2_model.pt` file uses the YOLOv8 nano model as its pretrained backbone for this project.
 <br>
 
+<br>
+
+For more project, you can check my personal blog website: https://visionbrick.com/
+
+<br>
+
+
 # Demo video
 
 
