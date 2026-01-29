@@ -22,14 +22,10 @@ For more project, you can check my personal blog website: https://visionbrick.co
 
 # Demo video
 
-
- 
-
-
 https://github.com/siromermer/CS2-Yolov7-Custom-ObjectDetection/assets/113242649/69525835-9c82-40b9-acf8-678272df9490
 
 
-<br> <br>
+<br> 
 
 # Disclaimer
 This project is for educational and research purposes only. It should not be used for malicious intentions. The project only supports Counter-Strike: Global Offensive which is no longer playable online since Counter-Strike 2 was released.
