@@ -5,11 +5,8 @@ Real-time  detection system with automated mouse control that detects and locks 
 
 I collected the dataset inside the game by taking screenshots from time to time while playing.
 After collecting images, annotation was done with LabelImg.
-You can find the dataset on my Kaggle page, link: https://www.kaggle.com/datasets/merfarukgnaydn/counter-strike-2-body-and-head-classification
-
-<br>
-
-The dataset is small for now, but the results are really good. Lots of people gave me feedback about the data quality, and they were all positive because the images are from the game, not from real life. Therefore, there aren’t any differences in environments, there aren’t any sharp lighting changes between images, or shape differences in objects.
+You can find the dataset on my Kaggle page,  [link](https://www.kaggle.com/datasets/merfarukgnaydn/counter-strike-2-body-and-head-classification)
+. The dataset is small for now, but the results are really good. Lots of people gave me feedback about the data quality, and they were all positive because the images are from the game, not from real life. Therefore, there aren’t any differences in environments, there aren’t any sharp lighting changes between images, or shape differences in objects.
 
 <br>
 
