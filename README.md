@@ -1,20 +1,7 @@
  # About Project
 Real-time  detection system with automated mouse control that detects and locks onto targets in milliseconds, reacting faster than human reflexes using YOLO and TensorRT for maximum inference performance.
 
-<br>
-
-I collected the dataset inside the game by taking screenshots from time to time while playing.
-After collecting images, annotation was done with LabelImg.
-You can find the dataset on my Kaggle page,  [link](https://www.kaggle.com/datasets/merfarukgnaydn/counter-strike-2-body-and-head-classification)
-. The dataset is small for now, but the results are really good. Lots of people gave me feedback about the data quality, and they were all positive because the images are from the game, not from real life. Therefore, there aren’t any differences in environments, there aren’t any sharp lighting changes between images, or shape differences in objects.
-
-<br>
-
-The `yolov8_csgo_cs2_model.pt` file uses the YOLOv8 nano model as its pretrained backbone for this project. TensorRT engine files(`yolov8_csgo_cs2_model.engine`) must be exported locally as they are GPU-specific and optimized for your hardware.
-<br>
-
-
-For more project, you can check my personal blog website: https://visionbrick.com/
+### For more project, you can check my personal blog website: https://visionbrick.com/
 
 
 # Demo video
@@ -26,6 +13,15 @@ https://github.com/siromermer/CS2-Yolov7-Custom-ObjectDetection/assets/113242649
 
 # Disclaimer
 This project is for educational and research purposes only. It should not be used for malicious intentions. The project only supports Counter-Strike: Global Offensive which is no longer playable online since Counter-Strike 2 was released.
+
+# Dataset & Model
+I collected the dataset inside the game by taking screenshots from time to time while playing.
+After collecting images, annotation was done with LabelImg.
+You can find the dataset on my Kaggle page,  [link](https://www.kaggle.com/datasets/merfarukgnaydn/counter-strike-2-body-and-head-classification)
+. The dataset is small for now, but the results are really good. Lots of people gave me feedback about the data quality, and they were all positive because the images are from the game, not from real life. Therefore, there aren’t any differences in environments, there aren’t any sharp lighting changes between images, or shape differences in objects.
+
+The `yolov8_csgo_cs2_model.pt` file uses the YOLOv8 nano model as its pretrained backbone for this project. TensorRT engine files(`yolov8_csgo_cs2_model.engine`) must be exported locally as they are GPU-specific and optimized for your hardware.
+<br>
 
 # Why not CS2 ?
 there is no  Raw input and  Mouse acceleration options in cs2 , therefore even models can detect players without problem in cs2 there is problem with mouse movements . As soon as they add this setting options to CS2 , this will work without problem for sure. TensorRT version is implemented for better performance.
